@@ -21,11 +21,7 @@ source venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
 
-3. Download the raw `recipes.csv` file from the shared cloud drive:
-
-**[INSERT CLOUD DRIVE LINK HERE]**
-
-4. Place `recipes.csv` in the **repository root** (the same directory as `clean_recipes.py` and `audit_recipes.py`).
+3. Place `recipes.csv` in the **repository root** (the same directory as `clean_recipes.py` and `audit_recipes.py`).
 
 ## Usage
 
