@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Install Python dependencies",
+            "type": "shell",
+            "command": "python3 -m pip install -r requirements.txt",
+            "inAgents": true,
+            "runOptions": {
+                "runOn": "worktreeCreated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run recipe script",
+            "type": "shell",
+            "command": "python3 clean_recipes.py",
+            "inAgents": true,
+            "problemMatcher": []
+        }
+    ]
+}
