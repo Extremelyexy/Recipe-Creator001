@@ -9,8 +9,8 @@ The raw file (`recipes.csv`) is larger than GitHub’s 100 MB limit, so it is **
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<ORG_OR_USER>/<REPO_NAME>.git
-cd <REPO_NAME>
+git clone https://github.com/smn1865/Recipe-Creator.git
+cd Recipe-Creator
 ```
 
 2. Create a virtual environment and install dependencies:
